@@ -1,0 +1,66 @@
+{
+  "name": "npm-publish-react-component",
+  "version": "1.1.1",
+  "description": "npm发包流程",
+  "main": "lib/index.js",
+  "keywords": [
+    "npm publish",
+    "npm发布",
+    "react组件",
+    "react component"
+  ],
+  "scripts": {
+    "start": "webpack serve --config example/webpack.config.js",
+    "build": "webpack"
+  },
+  "author": "douyacun",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@antv/dom-util": "^2.0.2",
+    "@antv/g-canvas": "^0.4.12",
+    "@antv/g6": "3.5.2",
+    "@antv/matrix-util": "^2.0.7",
+    "@antv/util": "~2.0.9",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "antd": "^4.2.5",
+    "antd-etable": "^1.3.44",
+    "autoprefixer": "^10.2.6",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "less": "^4.1.1",
+    "less-loader": "^9.0.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "moment": "^2.26.0",
+    "postcss-loader": "^5.3.0",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douyacun/npm-publish-react-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/douyacun/npm-publish-react-component/issues"
+  },
+  "homepage": "https://github.com/douyacun/npm-publish-react-component#readme"
+}
